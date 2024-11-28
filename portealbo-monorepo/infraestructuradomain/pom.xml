@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    
+    <!-- Referencia al proyecto principal -->
+    <parent>
+        <groupId>com.portealbo</groupId> <!-- Este ID debe coincidir con el del proyecto principal -->
+        <artifactId>portealbo-monorepo</artifactId> <!-- El artifactId del proyecto principal -->
+        <version>0.0.1-SNAPSHOT</version> <!-- Versión del proyecto principal -->
+    </parent>
+
+    <artifactId>infraestructuradomain</artifactId> <!-- ID del módulo -->
+    <version>0.0.1-SNAPSHOT</version>
+
+    <!-- Dependencias específicas del módulo -->
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+    </dependencies>
+</project>
